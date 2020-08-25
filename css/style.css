@@ -1,0 +1,750 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+body {
+    width: 940px;
+    min-height: 1px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    margin-top: 50px;
+    float: left;
+}
+
+section {
+    width: 100%;
+    float: left;
+}
+
+
+/* menu */
+
+.boxtrai {
+    min-width: 130px;
+    min-height: 30px;
+    float: left;
+    margin-left: -50px;
+}
+
+.boxphai {
+    min-height: 30px;
+    float: right;
+}
+
+ul .boxphai,
+ul .boxtrai {
+    list-style-type: none;
+}
+
+ul .boxphai li,
+ul .boxtrai li {
+    display: inline;
+}
+
+ul .boxtrai li a {
+    color: #3a3838;
+    text-decoration: none;
+    text-align: left;
+    transition: color 0.4s ease 0s;
+    padding: 5px 10px;
+    font: normal normal normal 13px/1.4em 'open sans', sans-serif;
+}
+
+ul .boxtrai li a:hover,
+ul .boxphai li img:hover {
+    color: #F90;
+    transition: color 0.4s ease 0s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul .boxphai li img {
+    margin-left: 5px;
+}
+
+.logo {
+    width: 400px;
+    height: 55px;
+    background-color: white;
+    border: 4px solid black;
+    position: absolute;
+    margin-left: 290px;
+    margin-top: -15px;
+    z-index: 1;
+}
+
+.logo h1 {
+    color: black;
+    letter-spacing: 0.3em;
+    text-align: center;
+    margin-top: 12px;
+}
+
+
+/* CONTENT */
+
+
+/* BANNER */
+
+.banner {
+    width: 940px;
+    height: 333px;
+    transition: 1s;
+    object-fit: cover;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mySlides {
+    display: none;
+}
+
+
+/* FOOD BLOG */
+
+.food_blog {
+    width: 100%;
+    height: 80px;
+    float: left;
+}
+
+.food_blog h1 {
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 21px;
+}
+
+
+/* POST */
+
+.box_blog {
+    width: 100%;
+    height: 299px;
+    float: left;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+
+.box_blog .box_trai {
+    width: 50%;
+    height: 299px;
+    float: left;
+}
+
+.box_blog .box_trai img {
+    width: 100%;
+    height: 100%;
+}
+
+.box_blog .box_phai {
+    width: 50%;
+    height: 299px;
+    float: right;
+}
+
+.box_blog .box_phai .box_phai_con {
+    min-width: 50px;
+    min-height: 50px;
+    float: left;
+    padding: 40px 48px 37px;
+}
+
+.box_blog .box_phai .box_phai_con .box1 {
+    float: left;
+    min-width: 100px;
+    min-height: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.4s ease 0s;
+    padding: 5px 10px;
+    font: normal normal normal 13px/1.4em 'open sans', sans-serif;
+}
+
+.nguoidung {
+    min-width: 1px;
+    float: left;
+    margin-top: -3px;
+}
+
+.nguoidung img {
+    width: 32px;
+    height: 32px;
+    margin-top: -2px;
+    opacity: 0.5;
+}
+
+.nguoidung_1 {
+    min-width: 1px;
+    float: left;
+    margin-top: -10px;
+    margin-left: 5px;
+}
+
+.nguoidung_1 p {
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: #0c0c0ccf;
+    font-family: arial;
+}
+
+.box_blog .box_phai .box_phai_con .box2 {
+    float: left;
+    min-width: 1px;
+    min-height: 1px;
+    text-decoration: none;
+    margin-top: -30px;
+}
+
+.box_blog .box_phai .box_phai_con .box2 .title h2 {
+    font-size: 27px;
+    color: black;
+}
+
+.box_blog .box_phai .box_phai_con .box2 .title h2:hover {
+    color: rgba(212, 156, 89, 1);
+    transition: .6s;
+}
+
+.box_blog .box_phai .box_phai_con .box2 .subtitle {
+    color: #6d6d6d;
+    font-size: 19px;
+    margin-top: -15px;
+}
+
+.box_blog .box_phai .box_phai_con .box3 {
+    float: left;
+    width: 374px;
+    border-top: 1px solid #CCC;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-size: 13px;
+    color: #757575;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.allpost {
+    float: left;
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.allpost .button {
+    width: 220px;
+    background-color: black;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 370px;
+    border: 3px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    transition: .5s;
+}
+
+
+/* ABOUT */
+
+.box_about {
+    width: 100%;
+    float: left;
+    height: 247px;
+    margin-bottom: 20px;
+}
+
+.box_about .boxtrai1,
+.box_about .boxphai1 {
+    float: left;
+    width: 46%;
+    height: 247px;
+}
+
+.box_about .boxtrai1 .box1,
+.box_about .boxtrai1 .box2 {
+    width: 50%;
+    float: left;
+    height: 247px;
+}
+
+.box_about .boxphai1 .box1,
+.box_about .boxphai1 .box2 {
+    width: 50%;
+    float: left;
+    height: 247px;
+}
+
+.box_about .boxtrai1 .box1 img,
+.box_about .boxphai1 .box1 img {
+    width: 100%;
+    width: 100%;
+}
+
+.boxtrai1 .box2 h2,
+.boxphai1 .box2 h2 {
+    padding-left: 20px;
+    margin-top: 0;
+    font: normal normal bold 21px/1.4em 'open sans', sans-serif;
+}
+
+.boxphai1 .box2 p {
+    padding-left: 20px;
+    font-size: 15px;
+    color: #4e4e4e;
+    line-height: 9px;
+}
+
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    float: left;
+}
+
+.copy {
+    color: #585858;
+    margin-top: 70px;
+    margin-left: 100px;
+    font-size: 14px;
+}
+
+.boxtrai2 {
+    width: 30%;
+    height: 250px;
+    float: left;
+}
+
+.boxphai2 {
+    width: 70%;
+    height: 250px;
+    float: left;
+}
+
+.ke {
+    border: 2.5px solid black;
+    width: 25px;
+    float: left;
+}
+
+.social {
+    float: left;
+    width: 100%;
+    padding: 20px;
+}
+
+.mr-l {
+    margin-left: 5px;
+}
+
+.mr-5 {
+    margin-left: 75px;
+}
+
+.boxphai2 .button {
+    width: 543px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin-left: 100px;
+    border: 3px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boxphai2 .button:hover {
+    background-color: white;
+    color: black;
+    transition: .5s;
+}
+
+.email {
+    font-size: 17px;
+    color: #8e8b8b;
+    margin-left: 100px;
+}
+
+.email_input {
+    margin-left: 100px;
+    margin-bottom: 10px;
+    width: 520px;
+    height: 30px;
+    border: 1px solid #bfbfbf;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=email]:focus {
+    border: 3px solid #555;
+}
+
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+    object-fit: cover;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Scroll */
+
+
+/* .test{
+  animation-name: ani;
+  animation-duration: 2s;
+}
+@keyframes ani{
+  from{
+      opacity: 0;
+  }
+  to{
+      opacity: 1;
+  }
+}  */
+
+
+/* Back Top */
+
+#topBtn {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    /* display: none; */
+}
+
+
+/* Aside */
+
+aside {
+    float: left;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+}
+
+aside .boxtrai a {
+    color: #3a3838;
+    text-decoration: none;
+    text-align: left;
+    transition: color 0.4s ease 0s;
+    padding: 5px 15px !important;
+    font: normal normal normal 15px/1.4em "open sans", sans-serif !important;
+}
+
+aside .blogin {
+    max-width: 150px;
+    border: 1px solid rgb(141, 104, 59);
+    color: rgb(141, 104, 59);
+    font-weight: 600;
+    font: normal normal normal 15px/1.4em "open sans", sans-serif !important
+}
+
+article {
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    border: 1px solid rgba(195, 195, 195, 0.75);
+    margin-top: 20px;
+    font: normal normal normal 18px/22px "open sans", sans-serif;
+}
+
+article h1 {
+    font-size: 2em;
+}
+
+.box4 {
+    width: 100%;
+    min-height: 1px;
+    padding: 60px;
+    object-fit: cover;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-left: 45px;
+}
+
+.boxchu {
+    border-left: 2px solid rgb(141, 104, 59);
+    width: 80%;
+    height: 130px;
+    font-style: italic;
+}
+
+.boxlink {
+    width: 80%;
+    float: left;
+    height: 60px;
+    border-bottom: 1px solid rgb(148, 148, 148);
+    border-top: 1px solid rgb(148, 148, 148);
+    margin-top: 20px;
+}
+
+.boxlink .boxphai li i {
+    float: left;
+    padding: 3px 15px;
+}
+
+.boxcomment {
+    width: 96%;
+    border: 1px solid rgba(195, 195, 195, 0.75);
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px 20px;
+    font: normal normal normal 18px/22px "open sans", sans-serif;
+}
+
+
+/* Login */
+
+.box {
+    width: 91.5%;
+    padding: 40px;
+    float: left;
+    /* background: #191919; */
+    text-align: center;
+}
+
+.box h1 {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid black;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+    width: 280px;
+    border-color: #2ecc71;
+}
+
+.box input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: login;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box input[type="submit"]:hover {
+    background: #2ecc71;
+}
+
+
+/* About me  */
+
+.box_about .boxtrai1 .box3,
+.box_about .boxtrai1 .box4 {
+    width: 40%;
+    float: left;
+    min-height: 247px;
+    padding: 20px;
+    object-fit: cover;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 20px 100px; */
+    margin-top: 20px;
+}
+
+.container:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-size: cover;
+    filter: blur(50px);
+    z-index: -1;
+}
+
+.contact-box {
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    /* box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19); */
+}
+
+.left {
+    background: url("../img/bg1.jpg") no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+
+.right {
+    padding: 25px 40px;
+}
+
+h2 {
+    position: relative;
+    padding: 0 0 10px;
+    margin-bottom: 10px;
+}
+
+h2:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    /* background-color: #2ecc71; */
+}
+
+.field {
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0);
+    outline: none;
+    background-color: rgba(230, 230, 230, 0.6);
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+}
+
+.field:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+    min-height: 150px;
+}
+
+.btn {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: #2ecc71;
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn:hover {
+    background-color: #27ae60;
+}
+
+.field:focus {
+    border: 2px solid rgba(30, 85, 250, 0.47);
+    background-color: #fff;
+}
+
+@media screen and (max-width: 880px) {
+    .contact-box {
+        grid-template-columns: 1fr;
+    }
+    .left {
+        height: 200px;
+    }
+}
+
+.nutplay {
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border: 3px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nutplay:hover {
+    background-color: white;
+    color: black;
+    transition: .5s;
+}

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASM 1</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="js/jquery.easing.1.3.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+</head>
+<body>
+    <!-- MENU -->
+    <header>
+        <nav>
+            <ul>
+                <div class="boxtrai">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="#part-2">ABOUT</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                </div>
+                <div class="boxphai">
+                    <li><img src="img/icon1.jpg" alt="#"></li>
+                    <li><img src="img/icon2.jpg" alt="#"></li>
+                    <li><img src="img/icon3.jpg" alt="#"></li>
+                    <li><img src="img/icon4.jpg" alt="#"></li>
+                </div>
+            </ul>
+        </nav>
+        <div class="logo" data-aos="zoom-out">
+            <h1>SALT & PEPPER</h1>
+        </div>
+    </header>
+    <!-- CONTENT -->
+    <section>
+        <!-- Banner -->
+        <div class="banner">
+            <img class="mySlides fade" src="img/banner.jpg">
+            <img class="mySlides fade" src="img/banner1.jpg">
+            <img class="mySlides fade" src="img/banner2.jpg">
+            <img class="mySlides fade" src="img/banner3.jpg">
+            <img class="mySlides fade" src="img/banner4.jpg">
+        </div>
+        <!-- Nav 2 -->
+        <aside>
+            <nav>
+                <ul>
+                    <div class="boxtrai">
+                        <li><a href="index.html">All Post</a></li>
+                        <li><a href="#">Quick & Easy</a></li>
+                        <li><a href="#">Vegetarian</a></li>
+                        <li><a href="#">Main Course</a></li>
+                    </div>
+                    <div class="boxphai">
+                        <i class="fas fa-search" style="color: #5a5a5a; font-size: 15px;padding: 5px 15px;"></i>
+                        <li><a href="login.html" class="blogin">Login / Sign up</a></li>
+
+                    </div>
+                </ul>
+            </nav>
+        </aside>
+
+        <article>
+            <div class="box4">
+                <div style="width: 100%;float:left;">
+                    <div class="nguoidung">
+                        <img src="img/nguoidung.jpg" alt="#">    
+                    </div>
+                    <div class="nguoidung_1">
+                        <div>
+                            <p>Admin
+                                <svg style="margin-bottom:-4px;" xmlns="http://www.w3.org/2000/svg" width="19" viewBox="0 0 19 19" style="fill-rule:evenodd" class="blog-icon-fill">
+                                    <path d="M15.3812,6.495914 L12.6789333,8.77258837 C12.6191333,8.84477644 12.5099333,8.85722265 12.4354,8.79997005 C12.4215333,8.79001308 12.4094,8.77756686 12.3998667,8.76429089 L9.78686667,6.14327115 C9.67766667,5.99225704 9.46186667,5.95491839 9.305,6.05863687 C9.26946667,6.08186981 9.23913333,6.11091099 9.21573333,6.14493065 L6.60013333,8.81075677 C6.5464,8.88626383 6.43893333,8.90534803 6.3592,8.85390366 C6.34446667,8.84394669 6.33146667,8.83233022 6.32106667,8.81905425 L3.61966667,6.50587098 C3.5018,6.36149485 3.28426667,6.33577266 3.13346667,6.44861837 C3.0494,6.51167921 3,6.60792997 3,6.70998895 L4,14 L15,14 L16,6.70169148 C16,6.51831719 15.8448667,6.36979232 15.6533333,6.36979232 C15.5476,6.36979232 15.4470667,6.41625821 15.3812,6.495914 Z"></path>
+                                </svg>
+                            </p>
+                        </div>
+                        <div>
+                            <ul style="float:left;margin-left:-30px;font-size:11px;margin-top:-10px;color:rgb(36, 35, 35)">
+                                <li><span data-hook="time-ago">Jan 21 -</span></li>
+                                <li><span data-hook="time-to-read">2 min</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <h1>Miracle no-knead bread</h1>
+                <h3 style="width:80%">Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading.</h3>
+                <img src="img/blog1.jpg" alt="">
+                <p style="width: 80%; color: #353535;line-height: 1.5;font-size: 18px;">Welcome to your blog post. Use this space to connect with your readers and potential customers in a way that’s current and interesting.
+                     Think of it as an ongoing conversation where you can share updates about business, trends, news, and more.</p>
+                <video width="740px" height="493px" muted loop id="video-sample">
+                    <source src="img/Gordon.mp4" type="video/mp4">
+                </video>
+                <button class="nutplay" id="btn" onclick="button_action()" style="width: 78.7%;height: 40px;">Play</button>
+                <h3 style="width:80%">Design with Ease</h3>
+                <div class="boxchu">
+                    <p style="padding:15px;font-size:24px;line-height: 1.5; color:black;">Do you have a design in mind for your blog? Whether you prefer a trendy postcard look or you’re going for a more editorial style blog - there’s a stunning layout for everyone.</p>
+                </div>
+                <p style="width: 80%; color: #353535;line-height: 1.5;font-size: 18px;">Every layout comes with the latest social features built in. Readers will be able to easily share posts on social networks like Facebook and Twitter, view how many people have liked
+                    a post, made comments and more. With the Wix, building your online community has never been easier.</p>
+                    <p style="width: 80%; color: #353535;line-height: 1.5;font-size: 18px;">Welcome to your blog post. Use this space to connect with your readers and potential customers in a way that’s current and interesting.
+                    Think of it as an ongoing conversation where you can share updates about business, trends, news, and more.</p>
+                <h3 style="width:80%">Design with Ease</h3>
+                <p style="width: 80%; color: #353535;line-height: 1.5;font-size: 18px;">Every layout comes with the latest social features built in. Readers will be able to easily share posts on social networks like Facebook and Twitter, view how many people have liked
+                    a post, made comments and more. With the Wix, building your online community has never been easier.</p>     
+                <div class="boxlink">
+                    <ul>
+                        <div class="boxphai" style="float: left !important;margin-left: -50px;">
+                            <li><i class="fab fa-facebook-f"></i></li>
+                            <li><i class="fab fa-twitter"></i></li>
+                            <li><i class="fab fa-linkedin-in"></i></li>
+                            <li><i class="fas fa-link"></i></li>
+                        </div>
+                        <div class="boxphai">
+                            <li><a href="#" style="font-size:15px;">Quick & Easy</a></li>
+                        </div>
+                       
+                    </ul>
+                    <div style="float:left;width: 100%;height: 50px;font-size:15px;margin-top:10px">
+                        <p>247 views <span style="margin-left:10px;">Write a comment</span>
+                            <span style="margin-left: 500px;">
+                                247 <i class="far fa-heart" style="color:#ff4949; font-size:16px;"></i>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+        </article>
+        <div class="boxcomment">
+            <a href="login.html" style="text-decoration: none;color: initial;">
+                <p><span style="color:rgb(141, 104, 59)">Log in</span> to leave a comment.</p>
+            </a>
+            </div>
+        <!-- Back Top-->
+        <button id="topBtn"><i class="fas fa-arrow-up"></i></button>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <div class="boxtrai2">
+           <h2>SUBSCRIBE VIA EMAIL</h2>
+           <div class="ke"></div><br>
+           <div class="social">
+                <img src="img/icon1.jpg" alt="#" class="mr-l">
+                <img src="img/icon2.jpg" alt="#" class="mr-l">
+                <img src="img/icon3.jpg" alt="#" class="mr-l">
+                <img src="img/icon4.jpg" alt="#" class="mr-l">
+            </div>
+        </div>
+        <div class="boxphai2">
+            <div class="email">
+               <p>Enter your email here</p> 
+            </div>      
+           <input type="email"  class="email_input" style="padding-left:21px" value="" required="" placeholder="Email" pattern="^.+@.+\.[a-zA-Z]{2,63}$" maxlength="250">
+           <button class="button">Subscribe Now</button>
+           <div class="copy">
+                <p>© 2023 by Salt & Pepper. Proudly created with ThanPM</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+
+// Animate On Scroll Webpage | AOS Library
+    AOS.init({
+        offset: 400, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 1000, // values from 0 to 3000, with step 50ms
+        //once: true, // whether animation should happen only once - while scrolling down
+        
+    });
+
+// Slideshow
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2400);
+    }
+// Back Top
+
+$(document).ready(function(){
+
+    $(window).scroll(function(){
+    if($(this).scrollTop() > 40){
+        $('#topBtn').fadeIn();
+    } else{
+        $('#topBtn').fadeOut();
+    }
+    });
+
+    $("#topBtn").click(function(){
+    $('html ,body').animate({scrollTop : 0},800);
+    });
+});
+
+// Video
+function button_action(){
+    var videos = document.getElementById('video-sample');
+    var button = document.getElementById('btn');
+    if(videos.paused){
+        videos.play();
+        button.innerHTML = "Play";
+    }
+    else{
+        videos.pause();
+        button.innerHTML = "Pause";
+    }
+}
+// Scroll
+// $(document).ready(function() {
+//   $(window).scroll(function() {
+//     if ($(document).scrollTop() > 413) {
+//       $("img").addClass("test");
+//     } else {
+//       $("img").removeClass("test");
+//     }
+//   });
+// });
+
+</script>
+</html>
